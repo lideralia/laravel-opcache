@@ -47,6 +47,8 @@ class OpcacheClass
      */
     public function compile($force = false)
     {
+        ini_set('memory_limit', '-1');
+
         if (! ini_get('opcache.dups_fix') && ! $force) {
             return ['message' => 'opcache.dups_fix must be enabled, or run with --force'];
         }
