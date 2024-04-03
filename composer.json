@@ -1,5 +1,5 @@
 {
-    "name": "appstract/laravel-opcache",
+    "name": "lideralia/laravel-opcache",
     "description": "PHP OPcache Artisan commands for Laravel.",
     "keywords": [
         "appstract",
@@ -7,7 +7,7 @@
         "laravel",
         "php"
     ],
-    "homepage": "https://github.com/appstract/laravel-opcache",
+    "homepage": "https://github.com/lideralia/laravel-opcache",
     "license": "MIT",
     "authors": [
         {
